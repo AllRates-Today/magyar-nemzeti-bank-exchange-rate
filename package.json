@@ -1,6 +1,6 @@
 {
   "name": "magyar-nemzeti-bank-exchange-rate",
-  "version": "1.3.0",
+  "version": "1.3.1",
   "description": "Official Magyar Nemzeti Bank (Hungary) daily exchange rates — 32 currencies vs HUF, history since 2016. Zero-dependency Node.js/TypeScript client.",
   "keywords": [
     "mnb",
