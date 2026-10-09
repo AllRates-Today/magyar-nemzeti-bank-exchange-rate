@@ -40,41 +40,41 @@ The open endpoint serves the *latest* table only and asks for a visible attribut
 Today's full Magyar Nemzeti Bank table, straight from the central bank's latest publication. On GitHub it is refreshed by [a daily Action](.github/workflows/daily-table.yml) that reads the keyless endpoint above and commits only when the central bank publishes a new table; the copy on npm is as of the package's publish date.
 
 <!-- daily-table:start -->
-Published **2026-10-08** by Magyar Nemzeti Bank — 32 rates. Updated 2026-10-08.
+Published **2026-10-09** by Magyar Nemzeti Bank — 32 rates. Updated 2026-10-09.
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AUD | HUF | reference | 227.73 |
-| BRL | HUF | reference | 65.22 |
-| CAD | HUF | reference | 229.67 |
-| CHF | HUF | reference | 392.71 |
-| CNY | HUF | reference | 48.87 |
-| CZK | HUF | reference | 15.01 |
-| DKK | HUF | reference | 49.03 |
-| EUR | HUF | reference | 366.45 |
-| GBP | HUF | reference | 432.14 |
-| HKD | HUF | reference | 41.73 |
-| IDR | HUF | reference | 0.0183 |
-| ILS | HUF | reference | 106.55 |
-| INR | HUF | reference | 3.38 |
+| AUD | HUF | reference | 226.9 |
+| BRL | HUF | reference | 64.8 |
+| CAD | HUF | reference | 228.57 |
+| CHF | HUF | reference | 391.25 |
+| CNY | HUF | reference | 48.59 |
+| CZK | HUF | reference | 14.98 |
+| DKK | HUF | reference | 48.8 |
+| EUR | HUF | reference | 364.82 |
+| GBP | HUF | reference | 430.51 |
+| HKD | HUF | reference | 41.44 |
+| IDR | HUF | reference | 0.0182 |
+| ILS | HUF | reference | 106.47 |
+| INR | HUF | reference | 3.36 |
 | ISK | HUF | reference | 2.67 |
-| JPY | HUF | reference | 2.0694 |
-| KRW | HUF | reference | 0.2438 |
-| MXN | HUF | reference | 18.19 |
-| MYR | HUF | reference | 80.07 |
-| NOK | HUF | reference | 34.24 |
-| NZD | HUF | reference | 183.16 |
-| PHP | HUF | reference | 5.2 |
-| PLN | HUF | reference | 83.69 |
-| RON | HUF | reference | 68.45 |
-| RSD | HUF | reference | 3.12 |
-| RUB | HUF | reference | 3.82 |
-| SEK | HUF | reference | 32.74 |
-| SGD | HUF | reference | 255.54 |
-| THB | HUF | reference | 9.73 |
-| TRY | HUF | reference | 6.65 |
-| UAH | HUF | reference | 7.3 |
-| USD | HUF | reference | 327.48 |
+| JPY | HUF | reference | 2.0571 |
+| KRW | HUF | reference | 0.2423 |
+| MXN | HUF | reference | 17.89 |
+| MYR | HUF | reference | 79.59 |
+| NOK | HUF | reference | 33.97 |
+| NZD | HUF | reference | 182.44 |
+| PHP | HUF | reference | 5.18 |
+| PLN | HUF | reference | 83.34 |
+| RON | HUF | reference | 68.26 |
+| RSD | HUF | reference | 3.11 |
+| RUB | HUF | reference | 3.83 |
+| SEK | HUF | reference | 32.64 |
+| SGD | HUF | reference | 254.05 |
+| THB | HUF | reference | 9.7 |
+| TRY | HUF | reference | 6.59 |
+| UAH | HUF | reference | 7.25 |
+| USD | HUF | reference | 325.21 |
 | ZAR | HUF | reference | 19.66 |
 
 Source: [Official rates published by MNB, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/mnb/). Rates are as printed by the central bank; AllRatesToday is not affiliated with it.
