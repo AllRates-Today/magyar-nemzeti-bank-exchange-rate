@@ -4,6 +4,8 @@
 [![license](https://img.shields.io/npm/l/magyar-nemzeti-bank-exchange-rate.svg)](https://github.com/AllRates-Today/magyar-nemzeti-bank-exchange-rate/blob/main/LICENSE)
 [![zero dependencies](https://img.shields.io/badge/dependencies-0-brightgreen.svg)](https://www.npmjs.com/package/magyar-nemzeti-bank-exchange-rate)
 [![TypeScript](https://img.shields.io/badge/TypeScript-types%20included-3178C6.svg)](https://www.typescriptlang.org/)
+[![EUR/HUF today](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fallratestoday.com%2Fapi%2Fopen%2Fcentral-bank%2Fmnb%3Fsource%3DEUR%26target%3DHUF&query=%24.rate&label=EUR%2FHUF%20published%20by%20Magyar%20Nemzeti%20Bank&color=0A7E8C&cacheSeconds=3600)](https://allratestoday.com/central-bank-rates-api/mnb/)
+[![rate date](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fallratestoday.com%2Fapi%2Fopen%2Fcentral-bank%2Fmnb%3Fsource%3DEUR%26target%3DHUF&query=%24.rate_date&label=rate%20date&color=555&cacheSeconds=3600)](https://allratestoday.com/central-bank-rates-api/mnb/)
 
 **Official Magyar Nemzeti Bank (Hungary) daily exchange rates for Node.js and TypeScript. The published central bank rates behind tax filings, customs valuations, audits, and compliant invoicing — not market estimates, but the numbers Magyar Nemzeti Bank itself prints, every business day.**
 
@@ -32,6 +34,51 @@ console.log(r.rate_date, r.rates.length); // the central bank's latest published
 ```
 
 The open endpoint serves the *latest* table only and asks for a visible attribution link. The client below uses the keyed API, which adds point-in-time tables, history, and CSV/XML/Excel output.
+
+## 📈 Latest published table
+
+Today's full Magyar Nemzeti Bank table, straight from the central bank's latest publication. On GitHub it is refreshed by [a daily Action](.github/workflows/daily-table.yml) that reads the keyless endpoint above and commits only when the central bank publishes a new table; the copy on npm is as of the package's publish date.
+
+<!-- daily-table:start -->
+Published **2026-10-08** by Magyar Nemzeti Bank — 32 rates. Updated 2026-10-08.
+
+| Base | Quote | Type | Rate |
+| --- | --- | --- | ---: |
+| AUD | HUF | reference | 227.73 |
+| BRL | HUF | reference | 65.22 |
+| CAD | HUF | reference | 229.67 |
+| CHF | HUF | reference | 392.71 |
+| CNY | HUF | reference | 48.87 |
+| CZK | HUF | reference | 15.01 |
+| DKK | HUF | reference | 49.03 |
+| EUR | HUF | reference | 366.45 |
+| GBP | HUF | reference | 432.14 |
+| HKD | HUF | reference | 41.73 |
+| IDR | HUF | reference | 0.0183 |
+| ILS | HUF | reference | 106.55 |
+| INR | HUF | reference | 3.38 |
+| ISK | HUF | reference | 2.67 |
+| JPY | HUF | reference | 2.0694 |
+| KRW | HUF | reference | 0.2438 |
+| MXN | HUF | reference | 18.19 |
+| MYR | HUF | reference | 80.07 |
+| NOK | HUF | reference | 34.24 |
+| NZD | HUF | reference | 183.16 |
+| PHP | HUF | reference | 5.2 |
+| PLN | HUF | reference | 83.69 |
+| RON | HUF | reference | 68.45 |
+| RSD | HUF | reference | 3.12 |
+| RUB | HUF | reference | 3.82 |
+| SEK | HUF | reference | 32.74 |
+| SGD | HUF | reference | 255.54 |
+| THB | HUF | reference | 9.73 |
+| TRY | HUF | reference | 6.65 |
+| UAH | HUF | reference | 7.3 |
+| USD | HUF | reference | 327.48 |
+| ZAR | HUF | reference | 19.66 |
+
+Source: [Official rates published by MNB, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/mnb/). Rates are as printed by the central bank; AllRatesToday is not affiliated with it.
+<!-- daily-table:end -->
 
 ## 🔑 Get your API key
 
