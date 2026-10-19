@@ -33,51 +33,54 @@ const r = await fetch('https://allratestoday.com/api/open/central-bank/mnb').the
 console.log(r.rate_date, r.rates.length); // the central bank's latest published table, no key
 ```
 
-The open endpoint serves the *latest* table only and asks for a visible attribution link. The client below uses the keyed API, which adds point-in-time tables, history, and CSV/XML/Excel output.
+The open endpoint serves the *latest* table only (JSON by default; add `?format=csv`, `xml` or `xlsx` for a file) and asks for a visible attribution link. The client below uses the keyed API, which adds point-in-time tables and history.
 
 ## 📈 Latest published table
 
 [![Latest Magyar Nemzeti Bank table](https://allratestoday.com/api/open/central-bank/mnb/table.svg)](https://allratestoday.com/central-bank-rates-api/mnb/)
 
-The image is rendered live from the keyless endpoint above, so it follows the central bank's publications on npm and on GitHub alike without a new release. The text copy below is there for search and copy-paste: on GitHub [a daily Action](.github/workflows/daily-table.yml) refreshes it whenever the central bank publishes a new table; on npm it is as of the package's publish date.
+The image is rendered live from the keyless endpoint above, so it follows the central bank's publications on npm and on GitHub alike without a new release. The same table as text is folded below for search and copy-paste: on GitHub [a daily Action](.github/workflows/daily-table.yml) refreshes it whenever the central bank publishes a new table; on npm it is as of the package's publish date.
 
 <!-- daily-table:start -->
-Published **2026-10-16** by Magyar Nemzeti Bank — 32 rates. Updated 2026-10-16.
+<details>
+<summary>Table as text: published 2026-10-19 by Magyar Nemzeti Bank — 32 rates. Updated 2026-10-19.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AUD | HUF | reference | 224.89 |
-| BRL | HUF | reference | 63.37 |
-| CAD | HUF | reference | 228.11 |
-| CHF | HUF | reference | 391.93 |
-| CNY | HUF | reference | 48.31 |
-| CZK | HUF | reference | 14.93 |
-| DKK | HUF | reference | 48.6 |
-| EUR | HUF | reference | 363.29 |
-| GBP | HUF | reference | 430.59 |
-| HKD | HUF | reference | 41.17 |
-| IDR | HUF | reference | 0.0179 |
-| ILS | HUF | reference | 104.49 |
-| INR | HUF | reference | 3.4 |
+| AUD | HUF | reference | 225.96 |
+| BRL | HUF | reference | 63.93 |
+| CAD | HUF | reference | 229.77 |
+| CHF | HUF | reference | 392.75 |
+| CNY | HUF | reference | 48.47 |
+| CZK | HUF | reference | 14.92 |
+| DKK | HUF | reference | 48.58 |
+| EUR | HUF | reference | 363.13 |
+| GBP | HUF | reference | 431.59 |
+| HKD | HUF | reference | 41.26 |
+| IDR | HUF | reference | 0.018 |
+| ILS | HUF | reference | 104.17 |
+| INR | HUF | reference | 3.41 |
 | ISK | HUF | reference | 2.67 |
-| JPY | HUF | reference | 2.0446 |
-| KRW | HUF | reference | 0.2425 |
-| MXN | HUF | reference | 17.58 |
-| MYR | HUF | reference | 79.15 |
-| NOK | HUF | reference | 34.18 |
-| NZD | HUF | reference | 183.18 |
+| JPY | HUF | reference | 2.0472 |
+| KRW | HUF | reference | 0.2436 |
+| MXN | HUF | reference | 17.48 |
+| MYR | HUF | reference | 79.33 |
+| NOK | HUF | reference | 34.37 |
+| NZD | HUF | reference | 183.31 |
 | PHP | HUF | reference | 5.13 |
-| PLN | HUF | reference | 83.22 |
-| RON | HUF | reference | 68.06 |
+| PLN | HUF | reference | 83.09 |
+| RON | HUF | reference | 68.19 |
 | RSD | HUF | reference | 3.09 |
-| RUB | HUF | reference | 3.86 |
+| RUB | HUF | reference | 3.91 |
 | SEK | HUF | reference | 32.66 |
-| SGD | HUF | reference | 252.44 |
-| THB | HUF | reference | 9.67 |
-| TRY | HUF | reference | 6.52 |
-| UAH | HUF | reference | 7.2 |
-| USD | HUF | reference | 323.07 |
+| SGD | HUF | reference | 253.02 |
+| THB | HUF | reference | 9.64 |
+| TRY | HUF | reference | 6.54 |
+| UAH | HUF | reference | 7.19 |
+| USD | HUF | reference | 323.82 |
 | ZAR | HUF | reference | 19.66 |
+
+</details>
 
 Source: [Official rates published by MNB, served by AllRatesToday](https://allratestoday.com/central-bank-rates-api/mnb/). Rates are as printed by the central bank; AllRatesToday is not affiliated with it.
 <!-- daily-table:end -->
@@ -350,7 +353,8 @@ Need the whole archive rather than an API call? The same published tables are mi
 - [All central bank sources](https://allratestoday.com/central-bank-rates-api/)
 - [Package docs on the site](https://allratestoday.com/docs/sdk/magyar-nemzeti-bank-exchange-rate/) · [ERP integration guides](https://allratestoday.com/docs/integrations/)
 - [API documentation](https://allratestoday.com/docs/#central-bank) · [Interactive reference](https://allratestoday.com/api-reference/) · [Methodology](https://allratestoday.com/official-rates-methodology/)
-- [Register (free)](https://allratestoday.com/register) · [Pricing](https://allratestoday.com/pricing/)
+- [Register (Free)](https://allratestoday.com/register) · [Dashboard](https://allratestoday.com/profile) · [Pricing](https://allratestoday.com/pricing/)
+- [Status](https://allratestoday.com/status)
 - [GitHub](https://github.com/AllRates-Today/magyar-nemzeti-bank-exchange-rate)
 
 ## 📜 License
