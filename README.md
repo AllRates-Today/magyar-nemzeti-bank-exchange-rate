@@ -47,42 +47,42 @@ The image is rendered live from the keyless endpoint above, so it follows the ce
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-10-28 by Magyar Nemzeti Bank — 32 rates. Updated 2026-10-28.</summary>
+<summary>Table as text: published 2026-10-29 by Magyar Nemzeti Bank — 32 rates. Updated 2026-10-29.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AUD | HUF | reference | 231.91 |
-| BRL | HUF | reference | 61.65 |
-| CAD | HUF | reference | 234.66 |
-| CHF | HUF | reference | 397.36 |
-| CNY | HUF | reference | 49.49 |
-| CZK | HUF | reference | 15.07 |
-| DKK | HUF | reference | 49.12 |
-| EUR | HUF | reference | 367.11 |
-| GBP | HUF | reference | 438.34 |
-| HKD | HUF | reference | 42.05 |
+| AUD | HUF | reference | 231.27 |
+| BRL | HUF | reference | 61.5 |
+| CAD | HUF | reference | 234.97 |
+| CHF | HUF | reference | 396.77 |
+| CNY | HUF | reference | 49.36 |
+| CZK | HUF | reference | 15.05 |
+| DKK | HUF | reference | 48.99 |
+| EUR | HUF | reference | 366.16 |
+| GBP | HUF | reference | 437.75 |
+| HKD | HUF | reference | 41.91 |
 | IDR | HUF | reference | 0.0181 |
-| ILS | HUF | reference | 106.38 |
-| INR | HUF | reference | 3.46 |
-| ISK | HUF | reference | 2.69 |
-| JPY | HUF | reference | 2.0901 |
-| KRW | HUF | reference | 0.2464 |
-| MXN | HUF | reference | 17.68 |
-| MYR | HUF | reference | 80.92 |
-| NOK | HUF | reference | 35.36 |
-| NZD | HUF | reference | 184.76 |
-| PHP | HUF | reference | 5.16 |
-| PLN | HUF | reference | 83.27 |
-| RON | HUF | reference | 68.61 |
+| ILS | HUF | reference | 105.5 |
+| INR | HUF | reference | 3.45 |
+| ISK | HUF | reference | 2.7 |
+| JPY | HUF | reference | 2.0818 |
+| KRW | HUF | reference | 0.2459 |
+| MXN | HUF | reference | 17.56 |
+| MYR | HUF | reference | 81.01 |
+| NOK | HUF | reference | 35.39 |
+| NZD | HUF | reference | 184.51 |
+| PHP | HUF | reference | 5.15 |
+| PLN | HUF | reference | 83.31 |
+| RON | HUF | reference | 68.48 |
 | RSD | HUF | reference | 3.12 |
-| RUB | HUF | reference | 4.1 |
-| SEK | HUF | reference | 33.18 |
-| SGD | HUF | reference | 257.3 |
-| THB | HUF | reference | 9.78 |
-| TRY | HUF | reference | 6.62 |
-| UAH | HUF | reference | 7.24 |
-| USD | HUF | reference | 329.93 |
-| ZAR | HUF | reference | 19.81 |
+| RUB | HUF | reference | 4.08 |
+| SEK | HUF | reference | 33.23 |
+| SGD | HUF | reference | 256.63 |
+| THB | HUF | reference | 9.74 |
+| TRY | HUF | reference | 6.6 |
+| UAH | HUF | reference | 7.22 |
+| USD | HUF | reference | 328.84 |
+| ZAR | HUF | reference | 19.77 |
 
 </details>
 
@@ -247,6 +247,7 @@ Magyar Nemzeti Bank is Hungary's central bank. Its official forint exchange rate
 
 - Publisher's own page: [Official exchange rates](https://www.mnb.hu/en/arfolyamok) · [www.mnb.hu](https://www.mnb.hu)
 - Publication: every business day; the exact schedule, freshness status and any current delay are on the [Magyar Nemzeti Bank rates page](https://allratestoday.com/central-bank-rates-api/mnb/)
+- In the API: usually by **10:20 UTC** (measured over the last 9 publications). Schedule a sync at or after that time and retry hourly until `rate_date` moves; every response carries the same figure as `available_by_utc` — see [when to poll](https://allratestoday.com/docs/#when-to-poll)
 - Values are stored unmodified, with the publisher's own `rate_date` on every row — see the [methodology](https://allratestoday.com/official-rates-methodology/)
 
 ## 🧭 Reading the numbers
