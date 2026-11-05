@@ -32,42 +32,42 @@ The image is rendered live from the keyless endpoint, so it follows the central 
 
 <!-- daily-table:start -->
 <details>
-<summary>Table as text: published 2026-11-04 by Magyar Nemzeti Bank — 32 rates. Updated 2026-11-04.</summary>
+<summary>Table as text: published 2026-11-05 by Magyar Nemzeti Bank — 32 rates. Updated 2026-11-05.</summary>
 
 | Base | Quote | Type | Rate |
 | --- | --- | --- | ---: |
-| AUD | HUF | reference | 226.39 |
-| BRL | HUF | reference | 58.8 |
-| CAD | HUF | reference | 231.34 |
-| CHF | HUF | reference | 395.25 |
-| CNY | HUF | reference | 48.36 |
-| CZK | HUF | reference | 14.94 |
-| DKK | HUF | reference | 48.61 |
-| EUR | HUF | reference | 363.32 |
-| GBP | HUF | reference | 435.38 |
-| HKD | HUF | reference | 41.13 |
-| IDR | HUF | reference | 0.0178 |
-| ILS | HUF | reference | 102.29 |
-| INR | HUF | reference | 3.41 |
+| AUD | HUF | reference | 226.69 |
+| BRL | HUF | reference | 59.18 |
+| CAD | HUF | reference | 231.65 |
+| CHF | HUF | reference | 395.56 |
+| CNY | HUF | reference | 48.48 |
+| CZK | HUF | reference | 14.95 |
+| DKK | HUF | reference | 48.58 |
+| EUR | HUF | reference | 363.12 |
+| GBP | HUF | reference | 435.28 |
+| HKD | HUF | reference | 41.21 |
+| IDR | HUF | reference | 0.0179 |
+| ILS | HUF | reference | 102.17 |
+| INR | HUF | reference | 3.42 |
 | ISK | HUF | reference | 2.66 |
-| JPY | HUF | reference | 2.0372 |
-| KRW | HUF | reference | 0.2409 |
-| MXN | HUF | reference | 17.34 |
-| MYR | HUF | reference | 79.41 |
-| NOK | HUF | reference | 35.07 |
-| NZD | HUF | reference | 181.92 |
-| PHP | HUF | reference | 5.07 |
-| PLN | HUF | reference | 82.54 |
-| RON | HUF | reference | 67.95 |
+| JPY | HUF | reference | 2.0419 |
+| KRW | HUF | reference | 0.241 |
+| MXN | HUF | reference | 17.39 |
+| MYR | HUF | reference | 79.9 |
+| NOK | HUF | reference | 34.87 |
+| NZD | HUF | reference | 182.24 |
+| PHP | HUF | reference | 5.14 |
+| PLN | HUF | reference | 82.68 |
+| RON | HUF | reference | 68 |
 | RSD | HUF | reference | 3.09 |
-| RUB | HUF | reference | 3.94 |
-| SEK | HUF | reference | 33.15 |
-| SGD | HUF | reference | 252.5 |
-| THB | HUF | reference | 9.59 |
-| TRY | HUF | reference | 6.45 |
-| UAH | HUF | reference | 7.09 |
-| USD | HUF | reference | 322.72 |
-| ZAR | HUF | reference | 19.61 |
+| RUB | HUF | reference | 3.96 |
+| SEK | HUF | reference | 33.12 |
+| SGD | HUF | reference | 253.2 |
+| THB | HUF | reference | 9.67 |
+| TRY | HUF | reference | 6.46 |
+| UAH | HUF | reference | 7.11 |
+| USD | HUF | reference | 323.29 |
+| ZAR | HUF | reference | 19.73 |
 
 </details>
 
